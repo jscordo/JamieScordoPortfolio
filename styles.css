@@ -21,8 +21,7 @@ h1 {
 
 h2 {
     font-size: 2.488rem;
-    line-height: 3.554em;
-    margin: 1rem;
+    line-height: 1.4em;
     color: #000000;
 }
 
@@ -47,6 +46,7 @@ header {
     background-color: #60808A;
     margin-bottom: 2rem;
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
@@ -55,7 +55,7 @@ header {
 }
 
 main {
-    padding: 1rem 0;
+    padding: 7.5rem 0;
 }
 
 article {
@@ -80,6 +80,7 @@ img {
 .description {
     background-color: #414A69;
     width: 25%;
+    padding: 1rem 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
