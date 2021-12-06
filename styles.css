@@ -19,6 +19,7 @@ h1 {
     font-size: 2.986rem;
     width: 20rem;
     margin: 1rem auto;
+    align-self: center;
 }
 
 h2 {
@@ -34,7 +35,7 @@ h3 {
     font-weight: 500;
     font-size: 1.44rem;
     line-height: 1.4em;
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 /*Layout*/
@@ -45,7 +46,6 @@ header, main, footer {
     padding: 2rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: .65rem;
 }
 
 header {
@@ -57,11 +57,18 @@ header {
     right: 0;
     z-index: 1000;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 main {
-    padding: 7.5rem 0;
+    padding: 10.5rem 0;
+}
+
+footer {
+    background-color: #60808A;
+    position: relative;
+    width: 100%;
 }
 
 article {
@@ -79,29 +86,29 @@ img {
 .image {
     background-color: #59607C;
     display: inline-block;
-    width: 75%;
+    width: 100%;
     padding: 1rem 1rem;
 }
 
 .description {
     background-color: #414A69;
-    width: 25%;
+    width: 100%;
     padding: 1rem 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
 }
 
 /*Navigation Flexbox*/
 
 nav {
-    width: 25%;
+    width: 100%;
 }
 
 nav li {
     font-size: 1rem;
-    margin: 1rem;
+    width: 100%;
+    justify-content: space-between;
 }
 
 nav ul{
@@ -109,5 +116,34 @@ nav ul{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+/*Navigation Links*/
+
+nav a {
+    font-family: jaf-bernina-sans, Arial, Helvetica, Tahoma, Verdana, Trebuchet, sans-serif;
+    padding: 0.25rem .5rem;
+    display: block;
+    width: 2rem;
+}
+
+nav a:link, nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:hover {
+    font-weight: 400;
+    font-style: italic;
+}
+
+nav a:active {
+    font-weight: 700;
+}
+
+nav a:focus {
+    font-weight: 400;
+    font-style: italic;
 }
