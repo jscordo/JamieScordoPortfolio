@@ -162,59 +162,31 @@ nav a:focus {
         align-items: center;
     }
 
-    .image {
-        background-color: #59607C;
-        display: block;
-        width: 75%;
-        padding: 1rem 1rem;
-    }
-    
-    .description {
-        background-color: #414A69;
-        width: 25%;
-        padding: 1rem 1rem;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+    nav {
+        width: 40%;
     }
 
     nav li {
-        width: 40%;
+        margin: 1rem;
     }
     
     nav ul{
+        margin: 0 auto;
         justify-content: flex-end;
-    }
-    
-    nav a {
-        padding: 0.25rem .5rem;
-        display: block;
     }
 }
 
 @media screen and (min-width: 50rem) {
 
-    h1{
+    header, main, footer {
+        max-width: 70rem;
     }
 
-    header {
-        width: 100%;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    nav li {
-        width: 40%;
+    .image {
+        width: 75%;
     }
     
-    nav ul{
-        justify-content: flex-end;
-    }
-    
-    nav a {
-        padding: 0.25rem .5rem;
-        display: block;
-        width: 2rem;
+    .description {
+        width: 25%;
     }
 }
