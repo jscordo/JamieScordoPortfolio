@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/*Typography*/
+
+html {
+    font-family: korolev-compressed, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4em;
+}
+
+h1 {
+    font-size: 2.986rem;
+    line-height: 4.265em;
+    margin: 1rem;
+}
+h2 {
+    font-size: 2.488rem;
+    line-height: 3.554em;
+    margin: 1rem;
+}
+
+h3 {
+    font-size: 1.44rem;
+    line-height: 2.057em;
+}
+
+/*Layout*/
+
+main {
+    padding: 1rem auto;
+}
+
+article {
+    position: relative;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+header, footer {
+    background-color: #60808A;
+}
