@@ -36,15 +36,23 @@ main {
 }
 
 article {
-    position: relative;
     padding-bottom: 2rem;
     width: 100%;
 }
 
 header {
     margin-bottom: 2rem;
+    position: fixed;
+    z-index: 1000;
 }
 
 header, footer {
     background-color: #60808A;
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+.image {
+    display: block;
+    max-width: 50rem;
 }
