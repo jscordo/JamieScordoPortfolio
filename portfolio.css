@@ -35,19 +35,20 @@ h3 {
 
 /*Layout*/
 
-header {
-    margin-bottom: 2rem;
-    position: fixed;
-    display: flex;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-}
-
 header, footer {
     background-color: #60808A;
     color: #ffffff;
     padding: 2rem 0;
+}
+
+header {
+    margin-bottom: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    
 }
 
 main {
