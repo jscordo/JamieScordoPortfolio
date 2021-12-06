@@ -1,15 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-}
 
 /*Typography*/
-
 html {
     font-family: korolev-compressed, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
@@ -66,9 +62,44 @@ article {
 .image {
     background-color: #59607C;
     display: block;
-    width: 100%;
+    width: 50%;
 }
 
 .description {
     background-color: #414A69;
+}
+
+/*Navigation Flexbox*/
+
+header.nav {
+    background-color: #d3d3d3;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav li {
+    font-size: 1rem;
+    width: calc(33.33% - 1rem);
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
