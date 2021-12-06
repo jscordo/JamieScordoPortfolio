@@ -4,6 +4,10 @@
     box-sizing: border-box;    
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
 /*Typography*/
 
 html {
@@ -31,18 +35,12 @@ h3 {
 
 /*Layout*/
 
-main {
-    padding: 1rem auto;
-}
-
-article {
-    padding-bottom: 2rem;
-    width: 100%;
-}
-
 header {
     margin-bottom: 2rem;
     position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
     z-index: 1000;
 }
 
@@ -52,7 +50,21 @@ header, footer {
     padding: 2rem 0;
 }
 
+main {
+    padding: 1rem 0;
+}
+
+article {
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
 .image {
+    background-color: #59607C;
     display: block;
     max-width: 50rem;
+}
+
+.description {
+    background-color: #414A69;
 }
