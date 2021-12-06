@@ -17,9 +17,9 @@ h1 {
     font-family: korolev-compressed, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 2.986rem;
-    width: 20rem;
-    margin: 1rem auto;
-    align-self: center;
+    line-height: 1.4em;
+    width: 12rem;
+    margin: 0 auto;
 }
 
 h2 {
@@ -28,6 +28,7 @@ h2 {
     font-size: 2.488rem;
     line-height: 1.4em;
     color: #000000;
+    margin: 0 1rem;
 }
 
 h3 {
@@ -58,7 +59,7 @@ header {
     z-index: 1000;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-between;
 }
 
 main {
@@ -85,7 +86,7 @@ img {
 
 .image {
     background-color: #59607C;
-    display: inline-block;
+    display: block;
     width: 100%;
     padding: 1rem 1rem;
 }
@@ -146,4 +147,74 @@ nav a:active {
 nav a:focus {
     font-weight: 400;
     font-style: italic;
+}
+
+@media screen and (min-width: 30rem) {
+
+    h1{
+        width: 15rem;
+    }
+
+    header {
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .image {
+        background-color: #59607C;
+        display: block;
+        width: 75%;
+        padding: 1rem 1rem;
+    }
+    
+    .description {
+        background-color: #414A69;
+        width: 25%;
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    nav li {
+        width: 40%;
+    }
+    
+    nav ul{
+        justify-content: flex-end;
+    }
+    
+    nav a {
+        padding: 0.25rem .5rem;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 50rem) {
+
+    h1{
+    }
+
+    header {
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav li {
+        width: 40%;
+    }
+    
+    nav ul{
+        justify-content: flex-end;
+    }
+    
+    nav a {
+        padding: 0.25rem .5rem;
+        display: block;
+        width: 2rem;
+    }
 }
