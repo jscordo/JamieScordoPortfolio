@@ -7,27 +7,33 @@
 
 /*Typography*/
 html {
-    font-family: korolev-compressed, Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
+    font-family:freight-big-pro, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
     font-size: 1rem;
     line-height: 1.4em;
 }
 
 h1 {
+    font-family: korolev-compressed, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
     font-size: 2.986rem;
     width: 20rem;
     margin: 1rem auto;
 }
 
 h2 {
+    font-family: korolev-compressed, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
     font-size: 2.488rem;
     line-height: 1.4em;
     color: #000000;
 }
 
 h3 {
+    font-family: korolev-compressed, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
     font-size: 1.44rem;
-    line-height: 2.057em;
+    line-height: 1.4em;
     margin: 1rem;
 }
 
